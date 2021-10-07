@@ -1,5 +1,5 @@
 # Multiple-Excel-Files-into-SQLite-Database
-etting data file names of 10 files 2009-2019 of aapl stock price data and loading into SQlite DB using openyxl, dataset, glob, sqlite3, pandas, and numpy
+Getting data file names of 10 files 2009-2019 of aapl stock price data and loading into SQlite DB using openyxl, dataset, glob, sqlite3, pandas, and numpy
 As suggested in Use Case 1 of the FTE, we need to read the other nine stock files and insert their data into the database. While nine files isn't an undue burden to manually read, we are going to look ahead to the time when we may have 100 log files to read and implement this code using the DRY Principle. DRY stands for
 
 Don't Repeat Yourself So, while we could create an individual cell to read each stock file, for this assignment, do it in one. I'll give you some help to get started.
