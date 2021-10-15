@@ -23,7 +23,7 @@ The file names all start with a year, from 2009 straight to 2019 with no breaks:
 - 2019_aapl_data.xlsx 
 
 Do we know of anything in Python capable of generating a range of numbers like that?
-for x in range(2009, 2020): print(x) 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 That should be enough to get you going. Feel free to use code and helper functions from the FTE. I gave you the .ipynb file for a reason :).
+for x in range(2009, 2020): print(x) 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019  - That should be enough to get you going. Feel free to use code and helper functions from the FTE. I gave you the .ipynb file for a reason :).
 
 Remember,
 
