@@ -10,8 +10,19 @@ Much of computer science and programming is about identifying and exploiting pat
 
 The file names all start with a year, from 2009 straight to 2019 with no breaks:
 
-2009_aapl_data.xlsx 2010_aapl_data.xlsx 2011_aapl_data.xlsx 2012_aapl_data.xlsx 2013_aapl_data.xlsx 2014_aapl_data.xlsx 2015_aapl_data.xlsx 2016_aapl_data.xlsx 2017_aapl_data.xlsx 2018_aapl_data.xlsx 2019_aapl_data.xlsx Do we know of anything in Python capable of generating a range of numbers like that?
+2009_aapl_data.xlsx 
+2010_aapl_data.xlsx 
+2011_aapl_data.xlsx 
+2012_aapl_data.xlsx 
+2013_aapl_data.xlsx 
+2014_aapl_data.xlsx 
+2015_aapl_data.xlsx 
+2016_aapl_data.xlsx 
+2017_aapl_data.xlsx 
+2018_aapl_data.xlsx 
+2019_aapl_data.xlsx 
 
+Do we know of anything in Python capable of generating a range of numbers like that?
 for x in range(2009, 2020): print(x) 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 That should be enough to get you going. Feel free to use code and helper functions from the FTE. I gave you the .ipynb file for a reason :).
 
 Remember,
